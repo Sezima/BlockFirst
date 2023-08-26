@@ -11,7 +11,7 @@ public class TimeConversion {
         int minute = sc.nextInt();
         String pmOrAm = hour + ":" + minute;
 
-        System.out.prinf("The time in 12-hour format is: %s AM", pmOrAm);
+        System.out.println("The time in 12-hour format is: " +  pmOrAm + "AM");
 
 
     }
